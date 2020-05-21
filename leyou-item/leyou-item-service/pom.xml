@@ -13,6 +13,12 @@
     <version>1.0.0-SNAPSHOT</version>
 
     <dependencies>
+        <!--自定义通用依赖-->
+        <dependency>
+            <groupId>com.leyou.common</groupId>
+            <artifactId>leyou-common</artifactId>
+            <version>1.0.0-SNAPSHOT</version>
+        </dependency>
         <!-- web启动器 -->
         <dependency>
             <groupId>org.springframework.boot</groupId>
