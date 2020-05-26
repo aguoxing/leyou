@@ -27,4 +27,11 @@ public interface BrandService {
      * @param cids
      */
     void saveBrand(Brand brand, List<Long> cids);
+
+    /**
+     * 根据商品分类id，查询对应品牌
+     * @param cid
+     * @return
+     */
+    List<Brand> queryBrandsByCid(Long cid);
 }

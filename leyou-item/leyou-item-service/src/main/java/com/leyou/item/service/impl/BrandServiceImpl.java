@@ -4,6 +4,7 @@ import com.github.pagehelper.PageHelper;
 import com.github.pagehelper.PageInfo;
 import com.leyou.common.PageResult;
 import com.leyou.item.mapper.BrandMapper;
+import com.leyou.item.mapper.CategoryMapper;
 import com.leyou.item.pojo.Brand;
 import com.leyou.item.service.BrandService;
 import org.apache.commons.lang.StringUtils;
@@ -22,6 +23,8 @@ import java.util.List;
 public class BrandServiceImpl implements BrandService {
     @Autowired
     private BrandMapper brandMapper;
+    @Autowired
+    private CategoryMapper categoryMapper;
 
     @Override
     public PageResult<Brand> queryBrandsByPage(String key, Integer page, Integer rows, String sortBy, Boolean desc) {
@@ -59,5 +62,10 @@ public class BrandServiceImpl implements BrandService {
         cids.forEach(cid -> {
             this.brandMapper.insertCategoryAndBrand(cid, brand.getId());
         });
+    }
+
+    @Override
+    public List<Brand> queryBrandsByCid(Long cid) {
+        return this.brandMapper.selectBrandByCid(cid);
     }
 }

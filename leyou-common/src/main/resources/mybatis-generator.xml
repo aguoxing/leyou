@@ -49,7 +49,7 @@
             <property name="enableSubPackages" value="false"/>
         </javaClientGenerator>
 
-        <table tableName="tb_spec_param">
+        <table tableName="tb_stock">
             <generatedKey column="id" sqlStatement="Mysql"/>
         </table>
     </context>
