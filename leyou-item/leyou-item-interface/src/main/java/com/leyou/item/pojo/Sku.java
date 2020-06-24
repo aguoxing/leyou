@@ -70,6 +70,7 @@ public class Sku {
 
     /**
      * 库存
+     * Transient注解：临时变量，不会持久化到数据库
      */
     @Transient
     private Integer stock;
