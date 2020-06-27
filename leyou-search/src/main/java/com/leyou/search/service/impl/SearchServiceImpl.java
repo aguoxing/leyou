@@ -39,7 +39,7 @@ public class SearchServiceImpl implements SearchService {
 
     @Override
     public Goods buildGoods(Spu spu) {
-        // 创建goods对象
+        /*// 创建goods对象
         Goods goods = new Goods();
 
         // 查询品牌
@@ -132,6 +132,7 @@ public class SearchServiceImpl implements SearchService {
                 break;
             }
         }
-        return result;
+        return result;*/
+        return new Goods();
     }
 }
