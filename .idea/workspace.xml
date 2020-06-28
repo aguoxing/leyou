@@ -25,25 +25,9 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="19b30bc1-0b27-411b-a240-2fcf66fa081e" name="Default Changelist" comment="fix">
-      <change afterPath="$PROJECT_DIR$/leyou-common/src/main/java/com/leyou/common/util/IdWorker.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leyou-common/src/main/java/com/leyou/common/util/NumberUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leyou-sms-service/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leyou-sms-service/src/main/java/com/leyou/sms/LeyouSmsApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leyou-sms-service/src/main/java/com/leyou/sms/config/SmsProperties.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leyou-sms-service/src/main/java/com/leyou/sms/listener/SmsListener.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leyou-sms-service/src/main/java/com/leyou/sms/util/SmsUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leyou-sms-service/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+    <list default="true" id="19b30bc1-0b27-411b-a240-2fcf66fa081e" name="Default Changelist" comment="feat：sms短信接口">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leyou-common/leyou-common.iml" beforeDir="false" afterPath="$PROJECT_DIR$/leyou-common/leyou-common.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leyou-common/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/leyou-common/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leyou-item/leyou-item-interface/leyou-item-interface.iml" beforeDir="false" afterPath="$PROJECT_DIR$/leyou-item/leyou-item-interface/leyou-item-interface.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leyou-item/leyou-item-service/leyou-item-service.iml" beforeDir="false" afterPath="$PROJECT_DIR$/leyou-item/leyou-item-service/leyou-item-service.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leyou-search/leyou-search.iml" beforeDir="false" afterPath="$PROJECT_DIR$/leyou-search/leyou-search.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -206,8 +190,8 @@
       <item itemvalue="Spring Boot.LeyouUploadApplication" />
       <item itemvalue="Spring Boot.LeyouSearchApplication" />
       <item itemvalue="Spring Boot.LeyouUserApplication" />
-      <item itemvalue="Spring Boot.LeyouItemServiceApplication" />
       <item itemvalue="Spring Boot.LeyouSmsApplication" />
+      <item itemvalue="Spring Boot.LeyouItemServiceApplication" />
     </list>
     <recent_temporary>
       <list>
@@ -241,6 +225,7 @@
       <workItem from="1590730895856" duration="111000" />
       <workItem from="1590731101463" duration="1806000" />
       <workItem from="1592966840284" duration="312000" />
+      <workItem from="1593323661100" duration="861000" />
     </task>
     <task id="LOCAL-00001" summary="项目构建">
       <created>1589896581969</created>
@@ -270,7 +255,14 @@
       <option name="project" value="LOCAL" />
       <updated>1590488530088</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="feat：sms短信接口">
+      <created>1593256512856</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1593256512856</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -308,7 +300,8 @@
     <MESSAGE value="商品管理" />
     <MESSAGE value="feat:用户模块：用户注册" />
     <MESSAGE value="merge" />
-    <option name="LAST_COMMIT_MESSAGE" value="merge" />
+    <MESSAGE value="feat：sms短信接口" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat：sms短信接口" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1036" y="269" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog" timestamp="1590481140304">
@@ -403,5 +396,9 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="257" y="160" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1593245140888" />
+    <state x="695" y="391" key="vcs.readOnlyHandler.ReadOnlyStatusDialog" timestamp="1593323962898">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="695" y="391" key="vcs.readOnlyHandler.ReadOnlyStatusDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1593323962898" />
   </component>
 </project>
