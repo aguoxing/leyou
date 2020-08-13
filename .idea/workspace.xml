@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="BranchesTreeState">
     <expand>
       <path>
@@ -25,30 +28,27 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="19b30bc1-0b27-411b-a240-2fcf66fa081e" name="Default Changelist" comment="feat：用户功能完善">
-      <change afterPath="$PROJECT_DIR$/leyou-auth/leyou-auth-common/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leyou-auth/leyou-auth-common/src/main/java/com/leyou/auth/entity/UserInfo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leyou-auth/leyou-auth-common/src/main/java/com/leyou/auth/util/JwtConstans.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leyou-auth/leyou-auth-common/src/main/java/com/leyou/auth/util/JwtUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leyou-auth/leyou-auth-common/src/main/java/com/leyou/auth/util/ObjectUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leyou-auth/leyou-auth-common/src/main/java/com/leyou/auth/util/RsaUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leyou-auth/leyou-auth-common/src/test/java/com/leyou/auth/test/JwtTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leyou-auth/leyou-auth-service/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leyou-auth/leyou-auth-service/src/main/java/com/leyou/auth/LeyouAuthApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leyou-auth/leyou-auth-service/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/leyou-auth/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+    <list default="true" id="19b30bc1-0b27-411b-a240-2fcf66fa081e" name="Default Changelist" comment="feat：鉴权中心">
+      <change afterPath="$PROJECT_DIR$/leyou-auth/leyou-auth-service/src/main/java/com/leyou/auth/client/UserClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leyou-auth/leyou-auth-service/src/main/java/com/leyou/auth/config/JwtProperties.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leyou-auth/leyou-auth-service/src/main/java/com/leyou/auth/controller/AuthController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leyou-auth/leyou-auth-service/src/main/java/com/leyou/auth/service/AuthService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leyou-auth/leyou-auth-service/src/main/java/com/leyou/auth/service/impl/AuthServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leyou-common/src/main/java/com/leyou/common/util/CookieUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/leyou-user/leyou-user-interface/src/main/java/com/leyou/user/api/UserApi.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leyou-auth/leyou-auth-service/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/leyou-auth/leyou-auth-service/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leyou-auth/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/leyou-auth/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/leyou-common/leyou-common.iml" beforeDir="false" afterPath="$PROJECT_DIR$/leyou-common/leyou-common.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/leyou-common/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/leyou-common/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/leyou-gateway/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/leyou-gateway/src/main/resources/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/leyou-item/leyou-item-interface/leyou-item-interface.iml" beforeDir="false" afterPath="$PROJECT_DIR$/leyou-item/leyou-item-interface/leyou-item-interface.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/leyou-item/leyou-item-service/leyou-item-service.iml" beforeDir="false" afterPath="$PROJECT_DIR$/leyou-item/leyou-item-service/leyou-item-service.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/leyou-search/leyou-search.iml" beforeDir="false" afterPath="$PROJECT_DIR$/leyou-search/leyou-search.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leyou-user/leyou-user-interface/leyou-user-interface.iml" beforeDir="false" afterPath="$PROJECT_DIR$/leyou-user/leyou-user-interface/leyou-user-interface.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/leyou-user/leyou-user-service/leyou-user-service.iml" beforeDir="false" afterPath="$PROJECT_DIR$/leyou-user/leyou-user-service/leyou-user-service.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leyou-user/leyou-user.iml" beforeDir="false" afterPath="$PROJECT_DIR$/leyou-user/leyou-user.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/leyou-user/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/leyou-user/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,8 +58,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -76,6 +76,13 @@
       <set>
         <option value="git@github.com:aguoxing/leyou.git" />
       </set>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="C:\Program Files\JetBrains\IntelliJ IDEA 2020.2\plugins\maven\lib\maven3" />
+      </MavenGeneralSettings>
     </option>
   </component>
   <component name="ProjectId" id="1c82MAPwV5KA48pZ6HAigLGI7Rl" />
@@ -100,20 +107,23 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/leyou-auth/leyou-auth-common/src/main/java/com/leyou/auth/util" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
     <property name="settings.editor.selected.configurable" value="preferences.externalResources" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\2020\learn\leyou-note\leyou\leyou-common\src\main\java\com\leyou\common\util" />
+      <recent name="E:\2020\learn\leyou-note\leyou\leyou-auth\leyou-auth-common\src\main\java\com\leyou\auth\util" />
       <recent name="E:\2020\study\leyou-note\leyou\leyou-common\src\main\resources" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.leyou.item.mapper" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\2020\learn\leyou-note\leyou\leyou-auth\leyou-auth-common\src\main\java\com\leyou\auth\util" />
-      <recent name="E:\2020\learn\leyou-note\leyou\leyou-common\src\main\java\com\leyou\common\util" />
+    <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\2020\study\leyou-note\leyou\leyou-common\src\main\resources" />
     </key>
   </component>
@@ -283,6 +293,7 @@
       </list>
     </recent_temporary>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -310,6 +321,10 @@
       <workItem from="1590731101463" duration="1806000" />
       <workItem from="1592966840284" duration="312000" />
       <workItem from="1593323661100" duration="14460000" />
+      <workItem from="1593396389160" duration="14573000" />
+      <workItem from="1593440752120" duration="26000" />
+      <workItem from="1593482135838" duration="916000" />
+      <workItem from="1597305352644" duration="55000" />
     </task>
     <task id="LOCAL-00001" summary="项目构建">
       <created>1589896581969</created>
@@ -360,11 +375,18 @@
       <option name="project" value="LOCAL" />
       <updated>1593326082595</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="feat：鉴权中心">
+      <created>1593396577356</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1593396577356</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="2" />
+    <option name="version" value="3" />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -401,7 +423,8 @@
     <MESSAGE value="feat：sms短信接口" />
     <MESSAGE value="README.md" />
     <MESSAGE value="feat：用户功能完善" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat：用户功能完善" />
+    <MESSAGE value="feat：鉴权中心" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat：鉴权中心" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1036" y="269" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog" timestamp="1590481140304">
@@ -416,10 +439,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="726" y="328" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1590040305524" />
-    <state x="1096" y="228" key="#com.intellij.ide.util.MemberChooser" timestamp="1593325989306">
+    <state x="1096" y="228" key="#com.intellij.ide.util.MemberChooser" timestamp="1593397842382">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1096" y="228" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1593325989306" />
+    <state x="1096" y="228" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1593397842382" />
     <state x="713" y="228" key="#com.intellij.openapi.updateSettings.impl.PluginUpdateInfoDialog" timestamp="1590730091613">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -432,10 +455,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="432" y="71" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1590488525386" />
-    <state x="495" y="67" key="FileChooserDialogImpl" timestamp="1590737531407">
+    <state x="495" y="67" key="FileChooserDialogImpl" timestamp="1593482443484">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="495" y="67" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1590737531407" />
+    <state x="495" y="67" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1593482443484" />
     <state width="1348" height="283" key="GridCell.Tab.0.bottom" timestamp="1593329074613">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -476,10 +499,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="764" y="197" key="IDE.errors.dialog/0.0.1920.1040@0.0.1920.1040" timestamp="1593246183861" />
-    <state x="508" y="138" key="SettingsEditor" timestamp="1589962529775">
+    <state x="508" y="138" key="SettingsEditor" timestamp="1597305406825">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="508" y="138" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1589962529775" />
+    <state x="508" y="138" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1597305406825" />
     <state x="559" y="239" key="Vcs.Push.Dialog.v2" timestamp="1590488541930">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
